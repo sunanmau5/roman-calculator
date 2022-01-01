@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  roman-calculator
 //
-//  Created by MBA on 09.11.21.
+//  Created by Sunan Regi Maunakea on 09.11.21.
 //
 
 import SwiftUI
