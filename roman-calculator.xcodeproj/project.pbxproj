@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C7304442780E29800B8B4B3 /* Roman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7304432780E29700B8B4B3 /* Roman.swift */; };
 		2CC6A017273AC475006E279D /* roman_calculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC6A016273AC475006E279D /* roman_calculatorApp.swift */; };
 		2CC6A019273AC475006E279D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC6A018273AC475006E279D /* ContentView.swift */; };
 		2CC6A01B273AC476006E279D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC6A01A273AC476006E279D /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C7304432780E29700B8B4B3 /* Roman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roman.swift; sourceTree = "<group>"; };
 		2CC6A013273AC475006E279D /* roman-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "roman-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC6A016273AC475006E279D /* roman_calculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roman_calculatorApp.swift; sourceTree = "<group>"; };
 		2CC6A018273AC475006E279D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				2CC6A016273AC475006E279D /* roman_calculatorApp.swift */,
 				2CC6A018273AC475006E279D /* ContentView.swift */,
+				2C7304432780E29700B8B4B3 /* Roman.swift */,
 				2CC6A01A273AC476006E279D /* Assets.xcassets */,
 				2CC6A01C273AC476006E279D /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				2CC6A019273AC475006E279D /* ContentView.swift in Sources */,
 				2CC6A017273AC475006E279D /* roman_calculatorApp.swift in Sources */,
+				2C7304442780E29800B8B4B3 /* Roman.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +423,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"roman-calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 4XG3UHHAR9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -426,7 +431,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"roman-calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 4XG3UHHAR9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -455,7 +461,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
