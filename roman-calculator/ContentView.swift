@@ -45,14 +45,17 @@ struct ContentView: View {
         var rhs = 0
         
         for i in (1...expSize - 2) {
-            rhs = try self.roman.convertRomanToNumber(exp[i + 1])
-            switch exp[i] {
-            case "+":
-                lhs += rhs
-            case "-":
-                lhs -= rhs
-            default:
-                print("skipping the rest")
+            let canContinue = i % 2 != 0
+            if canContinue {
+                rhs = try self.roman.convertRomanToNumber(exp[i + 1])
+                switch exp[i] {
+                case "+":
+                    lhs += rhs
+                case "-":
+                    lhs -= rhs
+                default:
+                    print("skipping the rest")
+                }
             }
         }
         return String(lhs)
@@ -124,7 +127,9 @@ struct ContentView: View {
                                     do {
                                         self.finalValue = try processExpression(exp: self.expression)
                                         if self.expression.count > 3 {
-                                            self.expression = [self.finalValue, self.expression[self.expression.count - 1]]
+                                            self.expression = [
+                                                getRomanFinalValue(value: self.finalValue),
+                                                self.expression[self.expression.count - 1]]
                                         }
                                     } catch {
                                         self.finalValue = "\(error)"
